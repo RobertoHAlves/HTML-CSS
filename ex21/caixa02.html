@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgba(129, 207, 181, 0.342);
+            text-align: center;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            
+        }
+        nav{
+            background-color: beige;
+            text-decoration: none;
+            padding: 3px;
+            text-align: center;
+            box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.616);
+            border-radius:20px;
+            
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 15px;
+            
+        }
+        nav > a:hover{
+            text-decoration: solid;
+            color: chartreuse;
+            
+            
+        }
+        main{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 80px;
+            box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.445);
+        }
+        article > aside{
+
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: brown;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site TESTE HTML CSS</h1>
+    <nav>
+        <a href="#">Noticias</a>
+        <a href="#">Jogos</a>
+        <a href="#">Filmes</a>
+        <a href="#">Politica</a>
+        <a href="#">Negocios</a>
+    </nav>
+        <main>
+            <section id="assuntos">
+                <p>Tipo uma categoria?!</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro at, ullam id praesentium inventore adipisci maiores aperiam veritatis deleniti dolorum fugit illo eum odit nobis doloremque quibusdam officiis enim quos?</p>
+                    <aside>
+                        <p>Artigo escrito por Roberto</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+    </header>
+
+    <footer>
+        <p>Desenvolvido por Robertinho</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
