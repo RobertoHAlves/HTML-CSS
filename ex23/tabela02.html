@@ -8,9 +8,13 @@
         body{
             font-family: 'Arial', 'Helvetica', 'sans-serif';
         }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgreen;
+        } /* efeito zebrado */
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{ 
             padding: 10px;
@@ -18,6 +22,11 @@
             background-color: rgba(135, 194, 194, 0.479);
             
         }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        } /* travar no head da tabela no topo */
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -83,6 +92,62 @@
             <tr>
                 <td>Pernambuco</td>
                 <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 056 495</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 805	</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 687</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 613</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">3 833 712</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 658 649</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 729</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">3 271 199</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 127 683</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2 817 38</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 757 013</td>
             </tr>
         </tbody>
         <tfoot>
